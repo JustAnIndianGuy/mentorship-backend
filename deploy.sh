@@ -8,8 +8,7 @@ fi
 
 # Travis build triggered by a PR
 if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
-    echo "Skip publishing, just a PR."
-    Chore: correct the misspelled word "publishing" on line 12
+    echo "Skip publising, just a PR."
     exit 0
 fi
 
